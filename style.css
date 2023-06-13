@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(4, 3, 3);
+}
+
+
+.container {
+    margin: 6.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18.75em;
+}
+
+
+.cube {
+    width: 2.5em;
+    height: 4em;
+    background-color: rgb(35, 52, 209);
+    margin: .3em;
+    animation: loading 0.5s infinite alternate;
+}
+
+
+.cube:nth-child(1) {
+    animation-delay: -0.4s;
+}
+
+
+.cube:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+
+@keyframes loading {
+    0% {
+        top: 1em;
+        height: 6,25em;
+    }
+    50%,
+    100% {
+        top: 3em;
+        height: 2em;
+    }
+
+}
