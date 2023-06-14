@@ -23,8 +23,10 @@ body {
     width: 2.5em;
     height: 4em;
     background-color: rgb(35, 52, 209);
-    margin: .3em;
+    margin: 1em;
     animation: loading 0.5s infinite alternate;
+    transform: scale(1.5);
+    
 }
 
 
